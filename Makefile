@@ -6,7 +6,7 @@ ARFLAGS	=	rcs
 
 LIB		=	libpcto
 LIB_DIR	=	../$(LIB)
-LIB_FLS	=	print.c read.c
+LIB_FLS	=	print.c read.c time.c
 LIB_SRC	=	$(addprefix $(LIB_DIR)/, $(LIB_FLS))
 LIB_OBJ	=	$(LIB_SRC:%.c=%.o)
 LIB_A	=	$(LIB_DIR)/$(LIB).a
