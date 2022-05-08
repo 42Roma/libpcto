@@ -17,13 +17,13 @@ float read_float(void)
 char read_char(void)
 {
 	char c;
-	scanf("%c", &c);
+	scanf(" %c", &c);
 	return c;
 }
 
 char *read_str(void)
 {
 	char *s = NULL;
-	scanf("%s", s);
+	scanf("%[^\n]s", s);
 	return s;
 }
